@@ -5,7 +5,7 @@ function getComputerChoice () {
 
 console.log(getComputerChoice())
 
-function getHumanChoice () {
+function getUserChoice () {
     let input
     let validInput = false
     while (!validInput) {
@@ -19,7 +19,7 @@ function getHumanChoice () {
     return input
 }
 
-console.log(getHumanChoice())
+console.log(getUserChoice())
 
 let userScore = 0
 let computerScore = 0
